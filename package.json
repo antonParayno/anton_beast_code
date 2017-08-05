@@ -1,0 +1,24 @@
+{
+  "name": "beast_code",
+  "version": "1.0.0",
+  "description": "watch and code first challenge",
+  "main": "sampleTest.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonParayno/anton_beast_code.git"
+  },
+  "author": "Anton Parayno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonParayno/anton_beast_code/issues"
+  },
+  "homepage": "https://github.com/antonParayno/anton_beast_code#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

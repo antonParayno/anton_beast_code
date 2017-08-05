@@ -2,18 +2,21 @@
 <script>
 
 // Requirements:
-	// It should have access to the callback function.
-	// It should pass argument into the callback function.
-	// It should pass an optional array that contains arguments for the callback function.
-	// It should pass multiple arguments into the array for the callback function.
+  // It should have access to the callback function.
+  // It should pass argument into the callback function.
+  // It should pass an optional array that contains arguments for the callback function.
+  // It should pass multiple arguments into the array for the callback function.
+
+function runWithDebugger(){};
+
 
 tests({
   'It should have access to the callback function.': function(){
-  	var counter = 0;
-  	runWithDebugger(function(){
-  		counter++;
-  	});
-  	eq(counter, 1);
+    var counter = 0;
+    runWithDebugger(function(){
+      counter++;
+    });
+    eq(counter, 1);
   },
   'It should pass argument into the callback function.': function(){
     fail();
@@ -22,7 +25,7 @@ tests({
     fail();
   },
   'It should pass multiple arguments into the array for the callback function.': function(){
-  	fail();
+    fail();
   }
 });
 </script>
